@@ -1,0 +1,411 @@
+J/ApJS/220/9      CfAIR2: NIR ligth curves of Type Ia SNe      (Friedman+, 2015)
+================================================================================
+CfAIR2: near-infrared light curves of 94 Type Ia supernovae.
+    Friedman A.S., Wood-Vasey W.M., Marion G.H., Challis P., Mandel K.S.,
+    Bloom J.S., Modjaz M., Narayan G., Hicken M., Foley R.J., Klein C.R.,
+    Starr D.L., Morgan A., Rest A., Blake C.H., Miller A.A., Falco E.E.,
+    Wyatt W.F., Mink J., Skrutskie M.F., Kirshner R.P.
+   <Astrophys. J. Suppl. Ser., 220, 9 (2015)>
+   =2015ApJS..220....9F    (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Photometry, infrared ; Supernovae ; Redshifts ; Spectral types
+Keywords: cosmology: observations; distance scale; infrared: stars;
+          supernovae: general; techniques: image processing;
+          techniques: photometric
+
+Abstract:
+    CfAIR2 is a large, homogeneously reduced set of near-infrared (NIR)
+    light curves (LCs) for Type Ia supernovae (SNe Ia) obtained with the
+    1.3m Peters Automated InfraRed Imaging TELescope. This data set
+    includes 4637 measurements of 94 SNe Ia and 4 additional SNe Iax
+    observed from 2005 to 2011 at the Fred Lawrence Whipple Observatory on
+    Mount Hopkins, Arizona. CfAIR2 includes JHKs photometric measurements
+    for 88 normal and 6 spectroscopically peculiar SN Ia in the nearby
+    universe, with a median redshift of z~0.021 for the normal SN Ia.
+    CfAIR2 data span the range from -13 days to +127 days from B-band
+    maximum. More than half of the LCs begin before the time of maximum,
+    and the coverage typically contains ~13-18 epochs of observation,
+    depending on the filter. We present extensive tests that verify the
+    fidelity of the CfAIR2 data pipeline, including comparison to the
+    excellent data of the Carnegie Supernova Project. CfAIR2 contributes
+    to a firm local anchor for SN cosmology studies in the NIR. Because SN
+    Ia are more nearly standard candles in the NIR and are less vulnerable
+    to the vexing problems of extinction by dust, CfAIR2 will help the SN
+    cosmology community develop more precise and accurate extragalactic
+    distance probes to improve our knowledge of cosmological parameters,
+    including dark energy and its potential time variation.
+
+Description:
+    Out of 121 total SN Ia and SN Iax observed from 2005 to 2011 by
+    PAIRITEL, 23 are not included in CfAIR2. CfAIR2 includes improved
+    photometry for 20 of 21 objects from WV08 (Wood-Vasey+, 2008,
+    J/ApJ/689/377).
+
+    Dedicated in October 2004, PAIRITEL uses the 2MASS northern telescope
+    together with the 2MASS southern camera. PAIRITEL is a fully automated
+    robotic telescope (see section 2.3).
+
+    CfAIR2 followed up SN discovered by optical searches at
+    {delta}>~30{deg} with V<~18mag, with significant discovery
+    contributions from both amateur and professional astronomers (see
+    Tables 1 and 2). SN candidates with a favorable observation window and
+    airmass <2.5 from Mount Hopkins were considered for the PAIRITEL
+    observation queue. From 2005 to 2011, ~20-30 SN per year were
+    discovered that were bright enough to observe with the PAIRITEL 1.3m,
+    with ~3-6 available on any given night from Mount Hopkins.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+table1.dat       214       94   General properties of 94 PAIRITEL SN Ia
+table2.dat       152        4   General properties of 4 PAIRITEL SN Iax
+table3.dat        41      213   SN Ia and SN Iax with published NIR photometry
+table5.dat       178     4675   PAIRITEL JHKs photometry of 2MASS standard
+                                 stars in SN Ia fields
+table8.dat        82     4637   PAIRITEL CfAIR2 JHKs photometry
+table9.dat       128       88   JHKs light curve properties for 88
+                                 spectroscopically normal PAIRITEL CfAIR2 SN Ia
+refs.dat         100      261   References
+--------------------------------------------------------------------------------
+
+See also:
+ J/MNRAS/448/1345 : YJK for Type Ia supernovae (Dhawan+, 2015)
+ J/ApJS/213/19    : Optical and near-IR light curves of 64 SNe (Bianco+, 2014)
+ J/A+A/568/A22    : Joint analysis of the SDSS-II & SNLS SNe Ia (Betoule+, 2014)
+ J/AJ/147/99      : Spectroscopy of stripped core-collapse SNe (Modjaz+, 2014)
+ J/ApJ/770/107    : Host galaxies of SNIa from SNfactory (Childress+, 2013)
+ J/ApJ/763/88     : SDSS-II SNe Ia cosmological analysis (Campbell+, 2013)
+ J/ApJS/200/12    : CfA4: light curves for 94 type Ia SNe (Hicken+, 2012)
+ J/AJ/143/126     : Spectroscopy of 462 nearby Type Ia SNe (Blondin+, 2012)
+ J/AJ/142/156     : The CSP (DR2): photometry of SNe Ia (Stritzinger+, 2011)
+ J/ApJ/731/120    : Intrinsic SN Ia light curves (Mandel+, 2011)
+ J/ApJ/730/119    : HST/WFC3 obs. of Cepheids in SN Ia hosts (Riess+, 2011)
+ J/ApJS/192/1     : Light-curve parameters from the SNLS (Conley+, 2011)
+ J/ApJ/716/712    : HST light curves of six SNe and Union2 (Amanullah+, 2010)
+ J/A+A/523/A7     : Light curves of type Ia supernovae in SNLS (Guy+, 2010)
+ J/ApJS/190/418   : Light curves for 165 SNe (Ganeshalingam+, 2010)
+ J/AJ/139/519     : Carnegie supernova project. SNe Ia (Contreras+, 2010)
+ J/AJ/139/120     : Low-redshift Type-Ia supernovae (Folatelli+, 2010)
+ J/ApJS/185/32    : First-year SDSS-II SN results (Kessler+, 2009)
+ J/ApJ/702/226    : Swift/UVOT panchromatic obs. of SN 2008D (Modjaz+, 2009)
+ J/ApJ/700/1097   : Light curve parameters of SN Ia (Hicken+, 2009)
+ J/ApJ/700/331    : Light curves of type Ia supernovae (CfA3) (Hicken+, 2009)
+ J/A+A/500/L17    : Spectral flux ratio of SN Ia (Bailey+, 2009)
+ J/ApJ/689/377    : PAIRITEL SNe Ia as NIR standard candles (Wood-Vasey+, 2008)
+ J/AJ/135/1598    : Optical spectroscopy of type Ia supernovae (Matheson+, 2008)
+ J/ApJS/175/191   : Variables from 2MASS calibration fields (Plavchan+, 2008)
+ J/MNRAS/384/107  : VRIJHK photometry of SN 2002cv (Elias-Rosa+, 2008)
+ J/ApJ/666/674    : ESSENCE supernova survey (Miknaitis+, 2007)
+ J/MNRAS/377/1531 : Opt. + infrared photometry of SN 2004eo (Pastorello+, 2007)
+ J/ApJ/659/122    : Improved distances to type Ia supernovae (Jha+, 2007)
+ J/AJ/133/403     : Light curve of 11 type Ia supernovae (Garg+, 2007)
+ J/ApJ/645/488    : SN type Ia luminosities (Wang+, 2006)
+ J/MNRAS/373/781  : JHK photometry of faint standard stars (Leggett+, 2006)
+ J/AJ/131/527     : UBVRI light curves of 44 type Ia supernovae (Jha+, 2006)
+ J/AJ/130/2453    : 9 high-redshift ESSENCE supernovae (Krisciunas+, 2005)
+ J/A+A/437/789    : Restframe I-band light curves of SN Ia (Nobili+, 2005)
+ J/A+A/428/555    : UBVRIJHKs photometry of 2000cx (Sollerman+, 2004)
+ J/ApJ/594/1      : High-z supernovae VRI mag and distances (Tonry+, 2003)
+ http://www.cbat.eps.harvard.edu/lists/Supernovae.html : IAU list of SNe
+ http://snfactory.lbl.gov/  : Nearby Supernova Factory home page
+ http://www.cfa.harvard.edu/supernova/OldRecentSN.html : SNe classified
+                                                          by the CfA SN group
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 15  A15   ---     SN        Supernova identifier
+  17- 25  F9.5  deg     RAdeg     Right Ascension in decimal degrees (J2000) (1)
+  27- 35  F9.5  deg     DEdeg     Declination in decimal degrees (J2000) (1)
+  37- 66  A30   ---     Host      Host galaxy identifier (2)
+  68- 81  A14   ---     Morph     NED Host galaxy morphology; -999 if unknown
+  83- 90  F8.6  ---     z         [0.002/0.08] Heliocentric redshift
+  92- 99  F8.6  ---   e_z         [0/0.006] The 1{sigma} uncertainty in z
+ 101-131  A31   ---   n_z         Reference for z (G1)
+ 133-160  A28   ---   n_Dis       Reference for Dis (G2)
+ 162-179  A18   ---     Dis       Discoverer(s) (2)
+ 181-209  A29   ---   r_Type      Reference for spectroscopic type
+ 211-214  A4    ---     Type      SN spectroscopic type (3)
+--------------------------------------------------------------------------------
+Note (1): The best fit SN centroids appropriate for forced DoPHOT photometry
+          at fixed coordinates.
+Note (2): From NASA/IPAC Extragalactic Database
+          (NED; http://ned.ipac.caltech.edu/) and NASA/ADS
+          (http://adsabs.harvard.edu/abstract_service.html). Also see IAUC List
+          of Supernovae: http://www.cbat.eps.harvard.edu/lists/Supernovae.html
+          For SN Ia with non-standard IAUC names, we found the associated host
+          galaxy from IAUC/CBET/ATel notices or the literature and searched for
+          the recession velocity with NED. When the SN Ia is associated with a
+          faint host not named in any major catalogs (NGC, UGC, ...) but named
+          in a large galaxy survey (e.g., SDSS, 2MASS), we include the host
+          name from the large survey rather than "Anonymous".
+Note (3): Uncertain spectroscopic types are denoted with a question mark (?)
+        Ia = spectroscopically normal SN Ia.
+       Iap = Spectroscopically peculiar SN Ia: including 91bg-like
+              and 06gz-like objects.
+ SN 2011de = classified as normal Ia in 2011CBET.2728....1N
+              But NIR LC morphology is consistent with a slow declining object
+              (e.g., SN 2009dc-like).
+              We classify it as Ia-pec.;
+ SN 2011aa = classified as SN 1998aq-like normal Ia in 2011CBET.2653....1P. But
+              Brown et al. 2014ApJ...787...29B identified it as a
+              Super Chandrasekhar mass candidate, and NIR LC morphology is
+              consistent with a slow declining object (e.g., SN 2009dc-like).
+              We classify it as Ia-pec.
+ SN 2010iw = classified as SN 2000cx-like, peculiar Ia in 2010CBET.2511....1M.
+              But the NIR LC has the double peaked morphology of normal Ia.
+              We classify it as a normal Ia.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  8  A8    ---     SN        Supernova identifier
+  10- 18  F9.5  deg     RAdeg     Right Ascension in decimal degrees (J2000) (1)
+  20- 27  F8.5  deg     DEdeg     Declination in decimal degrees (J2000) (1)
+  29- 37  A9    ---     Host      Host galaxy identifier (2)
+  39- 45  A7    ---     Morph     NED Host galaxy morphology; -999 if unknown
+  47- 54  F8.6  ---     z         [0.004/0.031] Heliocentric redshift
+  56- 63  F8.6  ---   e_z         The 1{sigma} uncertainty in z
+  65- 95  A31   ---   n_z         Reference for z (G1)
+  97-114  A18   ---   n_Dis       Reference for Dis (2)
+ 116-128  A13   ---     Dis       Discoverer(s) (G2)
+ 130-148  A19   ---   r_Type      Reference for Type (see refs.dat file)
+ 150-152  A3    ---     Type      SN spectroscopic type (3)
+--------------------------------------------------------------------------------
+Note (1): The best fit SN centroids appropriate for forced DoPHOT photometry
+          at fixed coordinates.
+Note (2): From NASA/IPAC Extragalactic Database
+          (NED; http://ned.ipac.caltech.edu/) and NASA/ADS
+          (http://adsabs.harvard.edu/abstract_service.html). Also see IAUC List
+          of Supernovae: http://www.cbat.eps.harvard.edu/lists/Supernovae.html.
+          For SN Ia with non-standard IAUC names, we found the associated host
+          galaxy from IAUC/CBET/ATel notices or the literature and searched for
+          the recession velocity with NED. When the SN Ia is associated with a
+          faint host not named in any major catalogs (NGC, UGC, ...) but named
+          in a large galaxy survey (e.g., SDSS, 2MASS), we include the host
+          name from the large survey rather than "Anonymous".
+Note (3):
+    Iax = Foley et al. (2013ApJ...767...57F).
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table3.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label  Explanations
+--------------------------------------------------------------------------------
+   1- 15  A15   ---     SN     Supernova identifier
+  17- 20  A4    ---     Type   SN spectroscopic type (1)
+  22- 41  A20   ---     Ref    NIR photometry reference (see refs.dat file) (2)
+--------------------------------------------------------------------------------
+Note (1): Spectroscopic type references for CfAIR2 objects are in Tables 1-2,
+          and in the references below for non-CfAIR2 objects with NIR
+          photometry. SN with uncertain spectral types (SN 2011de, SN 2011aa,
+          SN 2010iw) are denoted by a question mark (?) (see Table 1 caption).
+    Ia = Normal SN Ia including 91T-like, 86G-like, and spectroscopically
+         normal objects;
+   Iap = Peculiar SN Ia including 91bg-like objects and extra-luminous,
+         slow declining 06gz-like objects (Hicken et al. 2007);
+   Iax = SN Iax including 02cx-like objects distinct from peculiar SN Ia
+         (Li et al. 2003PASP..115..453L; Foley et al. 2013ApJ...767...57F).
+Note (2): References for objects with at least 1 band of YJHKs photometry.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table5.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label Explanations
+--------------------------------------------------------------------------------
+   1- 15  A15   ---     SN    Supernova identifier (1)
+  17- 18  I2    ---     Star  [1/92] 2MASS Star ID Number (StarID)
+  20- 21  I2    h       RAh   Hour of Right Ascension (J2000)
+  23- 24  I2    min     RAm   Minute of Right Ascension (J2000)
+  26- 30  F5.2  s       RAs   Second of Right Ascension (J2000)
+      32  A1    ---     DE-   Sign of the Declination (J2000)
+  33- 34  I2    deg     DEd   Degree of Declination (J2000)
+  36- 37  I2    arcmin  DEm   Arcmin of Declination (J2000)
+  39- 43  F5.2  arcsec  DEs   Arcsec of Declination (J2000)
+  45- 46  I2    ---   o_Jmag  [5/68]?=-9 Number of images used to obtain
+                                PAIRITEL J band mag, Jmag (JptlNum) (2)
+  48- 57  F10.3 mag     Jmag  [11/17.9]?=-99999 Weighted mean
+                                PAIRITEL J band mag (Jptlmag) (3)
+  59- 67  F9.3  mag   e_Jmag  [0.001/0.05]?=-9999 The 1{sigma} error in Jmag (4)
+  69- 78  F10.3 mag     Jmag2 [11/17.8]?=-99999 2MASS catalog J band mag (5)
+  80- 88  F9.3  mag   e_Jmag2 [0.01/0.3]?=-9999 The 1{sigma} error in Jmag2 (5)
+  90- 91  I2    ---   o_Hmag  [5/67]?=-9 Number of images used to obtain
+                                PAIRITEL H band mag, Hmag (HptlNum) (2)
+  93-102  F10.3 mag     Hmag  [10.2/17.2]?=-99999 Weighted mean PAIRITEL
+                                H band mag (Hptlmag) (3)
+ 104-112  F9.3  mag   e_Hmag  [0.001/0.04]?=-9999 The 1{sigma} error in Hmag (4)
+ 114-123  F10.3 mag     Hmag2 [10.2/16.9]?=-99999 2MASS catalog H band mag (5)
+ 125-133  F9.3  mag   e_Hmag2 [0.01/0.4]?=-9999 The 1{sigma} error in Hmag2 (5)
+ 135-136  I2    ---   o_Kmag  [5/67]?=-9 Number of images used to obtain
+                                PAIRITEL K band mag, Kmag (KptlNum) (2)
+ 138-147  F10.3 mag     Kmag  [10/16.8]?=-99999 Weighted mean PAIRITEL
+                                K band mag (Kptlmag) (3)
+ 149-157  F9.3  mag   e_Kmag  [0.001/0.05]?=-9999 The 1{sigma} error in Kmag (4)
+ 159-168  F10.3 mag     Kmag2 [10/16.5]?=-99999 2MASS catalog K band mag (5)
+ 170-178  F9.3  mag   e_Kmag2 [0.01/0.4]?=-9999 The 1{sigma} error in Kmag2 (5)
+--------------------------------------------------------------------------------
+Note (1): Tables provided for 118 out of 121 SN Ia fields observed by PAIRITEL
+          from 2005-2011. Missing catalogs for SN2008fv, SN2008hs, SN2011ay.
+Note (2): With 2MASS Star = StarID.
+Note (3): Computed from N_X measurements (X=J,H,K) of 2MASS Star = StarID.
+Note (4): PAIRITEL magnitude uncertainty of 2MASS Star = StarID is
+          computed as the error on the weighted mean of the N_X
+          measurements (X=J,H,K), each of which have already been
+          corrected for DoPHOT uncertainty estimates as described in
+          Section 4.1.2 and Figure 12. (see Section 7.3 of Figure 12).
+          The 2MASS uncertainties are from the 2MASS point source
+          catalog (Cutri et al. 2003, II/246).
+Note (5): For 2MASS Star = StarID from 2MASS Point Source Catalog
+          (Cutri+, 2003, II/246).
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table8.dat
+--------------------------------------------------------------------------------
+  Bytes Format Units      Label Explanations
+--------------------------------------------------------------------------------
+  1- 15  A15   ---        SN    Supernova identification
+ 17- 19  A3    ---        Type  Spectroscopic Type
+ 21- 28  A8    ---        Tel   Telescope used in observation; PAIRITEL 1.3-m
+ 30- 32  A3    ---        Band  2MASS filter used in observation: J, H, or K_s
+ 34- 42  A9  "YYYYMMMDD"  Date  Date of the Observation
+ 44- 51  F8.2  d          MJD   Modified Julian date
+ 53- 61  F9.3  ct         F25   [61/77193] Flux normalized to 25 magnitudes (1)
+ 63- 71  F9.3  ct       e_F25   [2/11818] Uncertainty in F25 (2)
+ 73- 77  F5.2  mag        mag   [12.7/20.6] Observed magnitude in Band
+ 79- 82  F4.2  mag      e_mag   [0/0.4] The 1{sigma} uncertainty in mag
+--------------------------------------------------------------------------------
+Note (1): JHKs mag = -2.5log10(F25)+25mag.
+Note (2): Symmetric 1{sigma} error on F25, computed as the error weighted
+          standard deviation of the flux measurements for each host galaxy
+          subtraction on a given night, weighted by photometric errors
+          corrected for DoPHOT underestimates. See Table 6 and Appendix A.
+          Magnitude Uncertainty =[-2.5log10(F25-e_F25)+2.5log10(F25+e_F25)]/2.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table9.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1- 15 A15    ---     SN      Supernova identifier
+  17- 24 F8.2   d       tBmax   Modified Julian Date of B band maximum (1)
+  26- 30 F5.2   d     e_tBmax   Uncertainty in tBmax
+  32- 50 A19    ---     ORef    Optical LC reference (see refs.dat file)
+  52- 58 F7.5   ---     zCMB    [0.003/0.06] Redshift converted to CMB frame (2)
+  60- 66 F7.5   ---   e_zCMB    [0.0008/0.002] Uncertainty in zCMB
+  68- 76 F9.3   ---     Delta   [-0.4/1]?=-9999 The {Delta} parameter (3)
+  78- 86 F9.3   ---   e_Delta   [0.02/0.4]?=-9999 Uncertainty in Delta
+  88- 92 F5.2   mag     Jmag    [12.9/18.9] J band magnitude (4)
+  94- 97 F4.2   mag   e_Jmag    [0.01/0.4] The 1{sigma} uncertainty in Jmag
+  99-103 F5.2   mag     Hmag    [12.7/18.4] H band magnitude (4)
+ 105-108 F4.2   mag   e_Hmag    [0.01/0.4] The 1{sigma} uncertainty in Hmag
+ 110-114 F5.2   mag     Kmag    [12.8/17.9] K_s_ band magnitude (4)
+ 116-119 F4.2   mag   e_Kmag    [0/0.4] The 1{sigma} uncertainty in Kmag
+ 121-122 I2     ---   o_Jmag    [2/46] Number of J band epochs (5)
+ 124-125 I2     ---   o_Hmag    [2/45] Number of H band epochs (5)
+ 127-128 I2     ---   o_Kmag    [1/45] Number of K_s band epochs (5)
+--------------------------------------------------------------------------------
+Note (1): From MLCS2k2.v007 (Jha et al. 2007, J/ApJ/659/122) fits to B-band LCs
+          from the CfA or the literature, where available.
+          tBmax fits from the literature are used for SN 2008fv
+          (Biscardi et al. 2012A&A...537A..57B), PS1-10w (Rest et al.
+          2014ApJ...795...44R).
+          For objects with no optical data or bad MLCS fits with reduced
+          {chi}^2^>3, tBmax is estimated from any or all of: the MJD of the
+          brightest point (rounded to the nearest day), optical spectra in
+          listed CBET/IAUC/ATEL notices, and cross checked with fitted phases
+          of NIR LC features, where possible (see F12:
+          Friedman 2012PhDT........42F). This applies to all SN
+          in Table 9 with tBmax and error rounded to the nearest day, with most
+          assuming a {+/-}2-3day uncertainty. Of these we observed SN 2009fw,
+          SN 2010ew, SN 2010ex, and SN 2010jv at the CfA but do not have
+          successfully reduced optical LCs for these objects, which are marked
+          CfA? and may or may not be included in CfA5. 2 objects, SN 2006E,
+          SN 2006mq were discovered several weeks after maximum and have only
+          late time optical data, and only rough tBmax estimates from optical
+          spectra (these assume a {+/-}10day uncertainty). Other objects
+          with tBmax from early optical data but with only late time NIR data
+          where the first PAIRITEL observation is at a phase >20 days
+          after tBmax include SN 2007qe, SN 2009ig, SN 2009im.
+Note (2): With apex vectors from Fixsen et al. 1996ApJ...473..576F (see NED:
+          http://ned.ipac.caltech.edu/help/velc help.html). Redshifts have not
+          been corrected with any galactic flow models. Heliocentric redshifts
+          (and references) and galactic coordinates are in Tables 1-2.
+Note (3): From MLCS2k2.v007 (Jha et al. 2007, J/ApJ/659/122) fits to optical
+          data from the CfA and/or the literature, where available. Only fits
+          with reduced {chi}^2^<3 are included. The following objects were not
+          run through MLCS2k2: PS1-10w (PanSTARRS1: tBmax from SALT fit in
+          Rest et al. 2014ApJ...795...44R), SN 2008fv (tBmax in
+          Biscardi et al. 2012A&A...537A..57B).
+          PTF10icb (Parrent et al. 2011ApJ...732...30P, PTF) have unpublished
+          optical data;
+          PTF10bjs (PTF) has unpublished data and is in CfA4, but only in the
+          r' i' natural system and not standard system magnitudes
+          (Hicken et al. 2009, J/ApJ/700/331); SN 2006E (Bryngelson G.
+          2012PhDT.......170B) and SN 2006mq (CfA3) have only late time optical
+          data.
+Note (4): At the brightest LC point (This is not necessarily the JHKs
+          magnitude at the first NIR maximum or at tBmax).
+Note (5): With SNR>3 in the lightcurve.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: refs.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1-  9 A9     ---     Ref     Reference code
+  11- 29 A19    ---     BibCode Bibcode
+  31- 53 A23    ---     Aut     Author's name(s)
+  55-100 A46    ---     Comm    Comment
+--------------------------------------------------------------------------------
+
+Global notes:
+Note (G1):
+    -NED_Host_Galaxy_Name = NED Host galaxy name;
+    -NED_21-cm_or_Opt_Smallest_Error = NED 21-cm or optical with smallest
+     uncertainty;
+    -CfA_Optical_Spectrum = CfA optical spectrum with FAST spectrograph on
+     Tillinghast 1.5-m telescope;
+    -PanSTARRS1; Rest et al. 2014ApJ...795...44R
+    -Childress et al. 2013 (J/ApJ/770/107). For SN 2008fr, the NED redshift
+     incorrectly lists the redshift of SN 2008fs (see 2008CBET.1513....1Y).
+     Heliocentric redshifts have not been corrected for any local flow models.
+Note (G2): Discovery References/URLs:
+        LOSS = Lick Observatory Supernova Search (see Li et al.
+               2000AIPC..522..103L; Filippenko 2005ASPC..332...33F, and
+               references therein);
+  Tenagra II = (http://www.tenagraobservatories.com/Discoveries.htm);
+   ROTSE-III = (Quimby 2006PhDT........13Q);
+        POSS = Puckett Observatory Supernova Search
+               (http://www.cometwatch.com/search.html);
+       BRASS = (http://brass.astrodatabase.net);
+     SDSS-II = Sloan Digital Sky Survey II (Frieman et al. 2008AJ....135..338F);
+         CSS = Catalina Sky Survey (http://www.lpl.arizona.edu/css/);
+         SNF = Nearby Supernova Factory (http://snfactory.lbl.gov/);
+       CHASE = CHilean Automatic Supernova sEarch
+               (http://www.das.uchile.cl/proyectoCHASE/);
+        CRTS = Catalina Real-Time Transient Survey (http://crts.caltech.edu/);
+     Itagaki = (http://www.k-itagaki.jp/);
+       Boles = Coddenham Astronomical Observatory, U.K.
+               (http://www.coddenhamobservatories.org/);
+       CROSS = (http://wwww.cortinasetelle.it/snindex.htm);
+        LSSS = La Sagra Sky Survey (http://www.minorplanets.org/OLS/LSSS.html);
+        PASS = Perth Automated Supernova Search
+               (http://www.perthobservatory.wa.gov.au/research/spps.html);
+               Williams 1997);
+        PIKA = Comet and Asteroid Search Program
+               (http://www.observatorij.org/Pika.html);
+  PanSTARRS1 = (http://pan-starrs.ifa.hawaii.edu/public/);
+        THCA = Supernova Survey
+               (http://www.thca.tsinghua.edu.cn/en/index.php/TUNAS).
+--------------------------------------------------------------------------------
+
+History:
+    From electronic version of the journal
+
+================================================================================
+(End)                  Prepared by [AAS], Emmanuelle Perret [CDS]    27-Oct-2015
